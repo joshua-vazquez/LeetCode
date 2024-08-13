@@ -10,7 +10,7 @@ namespace LeetCodeLibrary
     {
         public int RemoveDuplicates(int[] nums)
         {
-            //If the array is empty return 0
+            // If the array is empty return 0
             if ( nums.Length == 0)
             {
                 return 0;
