@@ -18,7 +18,7 @@ namespace LeetCodeLibraryTests
             int result = solution.FindMajorityElement(nums);
 
             // Assert
-            Assert.AreEqual(expected, result);
+            Assert.That(expected, Is.EqualTo(result));
         }
 
         [Test]
@@ -33,7 +33,7 @@ namespace LeetCodeLibraryTests
             int result = solution.FindMajorityElement(nums);
 
             // Assert
-            Assert.AreEqual(expected, result);
+            Assert.That(expected, Is.EqualTo(result));
         }
 
         [Test]
@@ -48,7 +48,7 @@ namespace LeetCodeLibraryTests
             int result = solution.FindMajorityElement(nums);
 
             // Assert
-            Assert.AreEqual(expected, result);
+            Assert.That(expected, Is.EqualTo(result));
         }
 
         [Test]
@@ -63,7 +63,7 @@ namespace LeetCodeLibraryTests
             int result = solution.FindMajorityElement(nums);
 
             // Assert
-            Assert.AreEqual(expected, result);
+            Assert.That(expected, Is.EqualTo(result));
         }
 
         [Test]
@@ -78,7 +78,7 @@ namespace LeetCodeLibraryTests
             int result = solution.FindMajorityElement(nums);
 
             // Assert
-            Assert.AreEqual(expected, result);
+            Assert.That(expected, Is.EqualTo(result));
         }
     }
 }
