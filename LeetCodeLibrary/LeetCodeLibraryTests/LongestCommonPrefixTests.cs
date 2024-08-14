@@ -73,7 +73,7 @@ namespace LeetCodeLibraryTests
         [Test]
         public void TestMixedLengthStrings()
         {
-            string[] strs = { "ab", "a" };
+            string[] strs = { "ab", "a", "abc", "abcd" };
             string expected = "a";
 
             string result = longestCommonPrefix.FindLongestCommonPrefix(strs);
