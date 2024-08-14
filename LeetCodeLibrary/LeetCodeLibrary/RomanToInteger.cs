@@ -13,7 +13,7 @@ namespace LeetCodeLibrary
             // Create a dictionary to map roman numerals to integers
             Dictionary<char, int> romanMap = new Dictionary<char, int>
             { 
-                {'I', 1},
+                { 'I', 1},
                 { 'V', 5},
                 { 'X', 10},
                 { 'L', 50},
