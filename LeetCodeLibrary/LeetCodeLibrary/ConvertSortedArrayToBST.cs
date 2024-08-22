@@ -24,7 +24,7 @@ namespace LeetCodeLibrary
                 return null;
             }
 
-            // Calculate the middle index
+            // Calculate the middle index to make it the root
             int mid = left + (right - left) / 2;
             TreeNode node = new TreeNode(nums[mid]);
 
