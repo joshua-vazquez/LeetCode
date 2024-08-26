@@ -18,10 +18,12 @@ namespace LeetCodeLibrary
                 if (prices[i] < minPrice)
                 {
                     minPrice = prices[i];
+                    Console.WriteLine($" current price: {prices[i]}, minPrice: {minPrice}");
                 }
                 else if (prices[i] - minPrice > maxProfit)
                 {
                   maxProfit = prices[i] - minPrice;
+                    Console.WriteLine($" current price: {prices[i]}, minPrice: {minPrice}, maxProfit: {maxProfit}");
                 }
             }
             return maxProfit;
